@@ -2488,7 +2488,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #00ffff;
+			background-color: #21b2a6;
 			box-shadow: none !important;
 			color: #ffffff !important;
 		}
@@ -2632,7 +2632,7 @@ input, select, textarea {
 
 				.features li {
 					padding: 3em 2em 1em 2em ;
-					text-align: center;
+					text-align: left;
 				}
 
 					.features li:before {
@@ -2772,7 +2772,7 @@ input, select, textarea {
 				.spotlight .content {
 					padding: 4em 3em 2em 3em ;
 					max-width: none;
-					text-align: center;
+					text-align: left;
 					width: 100%;
 				}
 
@@ -3998,4 +3998,5 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
 
