@@ -1756,7 +1756,7 @@ input, select, textarea {
 /* Section/Article */
 
 	section.special, article.special {
-		text-align: left;
+		text-align: center;
 	}
 
 	header p {
@@ -2662,10 +2662,10 @@ input, select, textarea {
 /* Spotlight */
 
 	.spotlight {
-		-moz-align-items: center;
-		-webkit-align-items: center;
-		-ms-align-items: center;
-		align-items: center;
+		-moz-align-items: left;
+		-webkit-align-items: left;
+		-ms-align-items: left;
+		align-items: left;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3998,3 +3998,4 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
