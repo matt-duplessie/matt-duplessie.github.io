@@ -2546,10 +2546,10 @@ input, select, textarea {
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
-		-moz-justify-content: left;
-		-webkit-justify-content: left;
-		-ms-justify-content: left;
-		justify-content: left;
+		-moz-justify-content: center;
+		-webkit-justify-content: center;
+		-ms-justify-content: center;
+		justify-content: center;
 		list-style: none;
 		padding: 0;
 		width: 100%;
@@ -2662,10 +2662,10 @@ input, select, textarea {
 /* Spotlight */
 
 	.spotlight {
-		-moz-align-items: left;
-		-webkit-align-items: left;
-		-ms-align-items: left;
-		align-items: left;
+		-moz-align-items: center;
+		-webkit-align-items: center;
+		-ms-align-items: cemter;
+		align-items: center;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3998,6 +3998,7 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
 
 
 
