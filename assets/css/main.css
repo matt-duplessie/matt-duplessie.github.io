@@ -2488,7 +2488,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #435c6c;          /* This is the color of the main buttons  */
+			background-color: #435c6c;          /* This is the color of the primary buttons  */
 			box-shadow: none !important;
 			color: #ffffff !important;
 		}
@@ -2981,7 +2981,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #505393;
+			background-color: #355482;   /*  Is this the color of Style 3?  This value was originally #505393  */
 			color: #d3d4e4;
 		}
 
@@ -3998,6 +3998,7 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
 
 
 
