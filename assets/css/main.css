@@ -3746,11 +3746,11 @@ input, select, textarea {
 		transform: translateY(8.5em);
 		opacity: 0;
 	}
-
+/*
 	body.is-preload #banner:after {
 		opacity: 1;
 	}
-
+*/
 /* CTA */
 
 	#cta .inner {
@@ -3998,6 +3998,7 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
 
 
 
