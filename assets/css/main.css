@@ -3751,6 +3751,28 @@ input, select, textarea {
 		opacity: 1;
 	}
 
+
+
+
+
+
+
+/* Force final state: overlay fully hidden after preload ends */
+body:not(.is-preload) #banner:after {
+  opacity: 0 !important;         /* ensure it's invisible */
+  background: transparent !important;
+  pointer-events: none !important;
+  transition: opacity 0.6s ease-in-out !important;
+}
+
+
+
+
+
+
+
+
+
 /* CTA */
 
 	#cta .inner {
@@ -3998,6 +4020,7 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
 
 
 
