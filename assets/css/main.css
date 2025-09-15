@@ -3762,7 +3762,7 @@ body:not(.is-preload) #banner:after {
   opacity: 0 !important;         /* ensure it's invisible */
   background: transparent !important;
   pointer-events: none !important;
-  transition: opacity 2s ease-in-out !important;
+  transition: opacity 3s ease-in-out !important;
 }
 
 
@@ -4020,6 +4020,7 @@ body:not(.is-preload) #banner:after {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
 
 
 
