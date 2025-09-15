@@ -3749,33 +3749,9 @@ input, select, textarea {
 
 	body.is-preload #banner:after {
 		opacity: 1;
-
-
-		background: transparent !important;
-
+		background: transparent !important;   /* This is the line Matt inserted to make the banner background unfaded */
 		
 	}
-
-
-
-
-
-
-
-/* Force final state: overlay fully hidden after preload ends 
-body:not(.is-preload) #banner:after {
-  opacity: 0 !important;         
-  background: transparent !important;
-  pointer-events: none !important;
-   /* transition: opacity 4s ease-out !important; */
-}
-
-
-
-
-
-
-
 
 
 /* CTA */
@@ -4025,6 +4001,7 @@ body:not(.is-preload) #banner:after {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
 
 
 
