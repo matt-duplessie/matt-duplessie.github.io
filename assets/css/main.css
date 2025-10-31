@@ -3144,7 +3144,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style5 {
-			background-color: #ffffff;
+			background-color: #000000;                    /* I changed this value for the header of the Backstory page */
 			color: #4E4852;
 		}
 
@@ -4001,6 +4001,7 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
 
 
 
